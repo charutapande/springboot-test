@@ -27,12 +27,12 @@
 			"settings": {},
 			"extensions": [
                 "vscjava.vscode-java-pack",
-                "pivotal.vscode-boot-dev-pack",
-                "vscjava.vscode-azurespringcloud",
-                "ms-vscode.vscode-node-azure-pack"
+                "vmware.vscode-boot-dev-pack",
+				"vmware.vscode-spring-boot",
+				"vscjava.vscode-lombok"
             ]
 		}
-    },
+    }
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
