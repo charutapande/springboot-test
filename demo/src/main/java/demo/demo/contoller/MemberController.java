@@ -10,7 +10,7 @@ import java.util.*;
 import jakarta.validation.Valid;
 
 @RestController
-@RequestMapping("/api/v1")
+@RequestMapping("/api")
 public class MemberController {
   @Autowired
   private MemberService memberService;

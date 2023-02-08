@@ -36,4 +36,11 @@
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
 	// "remoteUser": "root"
+
+	/*"remoteEnv": {
+		"OKTA_OAUTH2_ISSUER":"${containerEnv:OKTA_OAUTH2_ISSUER}",
+		"OKTA_OAUTH2_CLIENT_ID":"${containerEnv:OKTA_OAUTH2_CLIENT_ID}",
+		"OKTA_OAUTH2_CLIENT_SECRET":"${containerEnv:OKTA_OAUTH2_CLIENT_SECRET}",
+		"OKTA_OAUTH2_AUDIENCE":"${containerEnv:OKTA_OAUTH2_AUDIENCE}"
+	}*/
 }
